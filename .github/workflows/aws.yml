@@ -1,8 +1,8 @@
 on:
   push
 
-concurrency:
-  this_is_concurrency_workflow
+# concurrency:
+#   this_is_concurrency_workflow
 
 jobs:
   concurrency_workflow:
